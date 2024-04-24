@@ -8,3 +8,18 @@ This report contains projects based on the YouTube tutorials by [Data Engineerin
 - Snowpark Python Lib
 - VS Code
 - SnoSQL CLI
+
+## Organization: 
+- 1 database
+- 3 schemas, named bronze (source), silver (curation), and gold (consumption)
+- 
+
+## datasets: 
+Data used in this project is Amazon sales data related to mobile handset across three different regions. Data comes in three different formats and is loaded into an internal stage in the Bronze Schema. 
+
+- USA Sales, in Parquet format
+- India Sales, in CSV format
+- France Sales, in JSON format
+
+###  step 1 - Create user & Virtual Warehouse
+
