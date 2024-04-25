@@ -9,9 +9,9 @@ logging.basicConfig(stream=sys.stdout, level=logging.INFO, format='%(asctime)s -
 # snowpark session 
 def get_snowpark_session() -> Session:
     connection_parameters = {
-       "ACCOUNT":"ep57183.west-europe.azure", #this is an expired free trial account don't you dare
-        "USER":"snowpark_user", #same
-        "PASSWORD":"Test@12$4", #same
+       "ACCOUNT":"**********", #this is an expired free trial account don't you dare
+        "USER":"**********", #same
+        "PASSWORD":"**********", #same
         "ROLE":"SYSADMIN",
         "DATABASE":"E2E_AMAZON_SALES",
         "SCHEMA":"SOURCE",
