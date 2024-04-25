@@ -23,3 +23,10 @@ Data used in this project is Amazon sales data related to mobile handset across 
 
 ###  step 1 - Create user & Virtual Warehouse
 
+Followed the instructions on [this blog post on Medium](https://data-engineering-simplified.medium.com/end-to-end-de-project-using-snowpark-amazon-sales-analytics-744c1d5a8d50)
+
+###  step 2 - Create Databases & Schema
+
+## Step 4.2 Loading Data To Internal Stage Using Snowpark File API
+I had to use a different script than the one that was provided.
+
