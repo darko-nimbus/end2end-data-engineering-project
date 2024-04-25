@@ -6,12 +6,12 @@ import logging
 # initiate logging at info level
 logging.basicConfig(stream=sys.stdout, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%I:%M:%S')
 
-# snowpark session
+# snowpark session 
 def get_snowpark_session() -> Session:
     connection_parameters = {
-       "ACCOUNT":"ep57183.west-europe.azure",
-        "USER":"snowpark_user",
-        "PASSWORD":"Test@12$4",
+       "ACCOUNT":"ep57183.west-europe.azure", #this is an expired free trial account don't you dare
+        "USER":"snowpark_user", #same
+        "PASSWORD":"Test@12$4", #same
         "ROLE":"SYSADMIN",
         "DATABASE":"E2E_AMAZON_SALES",
         "SCHEMA":"SOURCE",
