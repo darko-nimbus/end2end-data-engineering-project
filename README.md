@@ -27,6 +27,13 @@ Followed the instructions on [this blog post on Medium](https://data-engineering
 
 ###  step 2 - Create Databases & Schema
 
-## Step 4.2 Loading Data To Internal Stage Using Snowpark File API
+### Step 4.2 Loading Data To Internal Stage Using Snowpark File API
 I had to use a different script than the one that was provided.
+
+### Step 5
+
+#### File Format Objects Within Common Schema
+#### Select Statements On Internal Stage (CSV, Parquet, JSON)
+Warning: run remove DS_Store files.sql if you're not on Mac.
+
 
